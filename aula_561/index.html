@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" methos="get" target="_blank" autocomplete="off">
+        <p>My form</p>
+
+        <p>
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" placeholder="your name">
+        </p>
+
+        <p>
+            <label for="dev">are you a developer ?:</label>
+            <input type="checkbox" id="dev" name="dev" value="yes">
+        </p>
+
+        <p>
+            <label for="dev2">do you know ML algorithms ?:</label>
+            <input type="checkbox" id="dev2" name="dev2" value="yes">
+        </p>
+
+        <p>
+            <label for="dev3">do you know DA ?:</label>
+            <input type="checkbox" id="dev3" name="dev3" value="yes">
+        </p>
+
+        Gender: <br>
+
+        <p>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="genero" value="female">
+        </p>
+
+
+        <p>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="genero" value="sim">
+        </p>
+
+        <p>
+            <label for="outro">other</label>
+            <input type="radio" id="outro" name="genero" value="sim">
+        </p>
+
+
+        <p>
+            <label for="date">date</label>
+            <input type="date" id="date" name="date" value="1994-11-17">
+        </p>
+
+        <p>
+            <label for="datetime">datetime</label>
+            <input type="datetime-local" id="date" name="datetime" value="1994-11-17T05:20">
+        </p>
+
+        <p>
+            <label for="time">time</label>
+            <input type="time" id="time" name="time" value="05:20">
+        </p>
+
+        <p>
+            <label for="color">color</label>
+            <input type="color" id="color" name="color" value="#00FF00">
+        </p>
+
+        <p>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" placeholder="your@domain.com">
+        </p>
+
+        <p>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" placeholder="your password">
+        </p>
+
+        <p>
+            <label for="file">file</label>
+            <input type="file" id="file" name="file" accept=".png, .svg, .jpeg" multiple>
+        </p>
+
+        <p>
+            <label for="number">number</label>
+            <input type="number" id="number" name="number" placeholder="write a number" min=0 max=25 step=5>
+        </p>
+
+        <p>
+            <label for="range">range</label>
+            <input type="range" id="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+            </datalist>
+        </p>
+
+        <p>
+            <label for="url">url</label>
+            <input type="url" id="url" name="url" placeholder="url">
+        </p>
+
+        <p>
+            <label for="search">search</label>
+            <input type="search" id="search" name="search" placeholder="search">
+        </p>
+
+        <p>
+            <label for="select">select</label>
+            <select id="select" name="select">
+                <option value="value0" label='Value 0'>
+                <option value="value1" label='Value 1'>
+                <option value="value2" label='Value 2' selected>
+                <option value="value3" label='Value 3'>
+                <option value="value4" label='Value 4' disabled>
+
+            </select>
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+        </p>
+
+        <p>
+            <label for="textarea">text area</label>
+            <textarea id="textarea" name="textarea" rows=5 cols=50></textarea>
+        </p>
+
+
+    </form>
+</body>
+
+</html>

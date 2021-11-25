@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque nobis, explicabo modi placeat cumque,
+        consequuntur veritatis nostrum mollitia sequi perferendis aliquam pariatur laudantium, omnis ab laboriosam ullam
+        illum optio debitis!</p>
+
+    <table>
+        <caption> 1. Minha tabela</caption>
+        <thead>
+            <tr>
+                <th>Título1 </th>
+                <th>Título2 </th>
+                <th>Título3 </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+
+                <td colspan="2" rowspan="2">AQUI</td>
+                <td>Corpo 6</td>
+
+            </tr>
+            <tr>
+
+                <td>Corpo 9</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Corpo 10</td>
+                <td>Corpo 11</td>
+                <td>Corpo 12</td>
+            </tr>
+
+            <tr>
+                <td>Corpo 10</td>
+                <td>Corpo 11</td>
+                <td>Corpo 12</td>
+            </tr>>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
